@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "user",
+    "dateExported": "2023-07-06T13:36:18.184Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5e6a4837-506d-4fdc-a627-0cf4b3fd3a6a",
+            "colId": "9eee80eb-8960-4785-8fc1-5bf165485cfb",
+            "containerId": "",
+            "name": "login user",
+            "url": "http://localhost:5001/login",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-06T12:45:42.945Z",
+            "modified": "2023-07-06T12:47:07.966Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"atul@gmail.com\",\n  \"password\":\"Atul@12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ceb0b9e-fdc6-4021-be49-7ff02644b961",
+            "colId": "9eee80eb-8960-4785-8fc1-5bf165485cfb",
+            "containerId": "",
+            "name": "logout user",
+            "url": "http://localhost:5001/logout",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-06T12:52:15.137Z",
+            "modified": "2023-07-06T12:52:55.689Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"atul@gmail.com\",\n  \"password\":\"Atul@12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
